@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colomnspan Table</title>
+  </head>
+  <body>
+    <h2>Working Colomnspan Table</h2>
+    <table border="1px">
+      <tr>
+        <th>Sample</th>
+        <th>Sample</th>
+        <th>Sample</th>
+        <th>Sample</th>
+      </tr>
+
+      <tr>
+        <td colspan="2">Value1</td>
+
+        <td>Value3</td>
+        <td>Value4</td>
+      </tr>
+      <tr>
+        <td>Value1</td>
+        <td colspan="2">Value2</td>
+
+        <td>Value4</td>
+      </tr>
+      <tr>
+        <td>Value1</td>
+        <td>Value2</td>
+        <td colspan="2">Value3</td>
+      </tr>
+      <tr>
+        <td>Value1</td>
+        <td>Value2</td>
+        <td>Value3</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="4">Value1</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>colomnspan Example</h2>
+    <table border="1px">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+
+        <th colspan="2">Cource</th>
+      </tr>
+      <tr>
+        <td>Ninja</td>
+        <td>1</td>
+        <td>20</td>
+        <td>C++</td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Harry</td>
+        <td>2</td>
+        <td>31</td>
+        <td colspan="2">Java</td>
+      </tr>
+      <tr>
+        <td>Carry</td>
+        <td>3</td>
+        <td>29</td>
+        <td>JavaScript</td>
+        <td>R</td>
+      </tr>
+    </table>
+
+    <hr />
+    <h2>colspan</h2>
+    <caption>
+      Invoice Bill
+    </caption>
+    <table border="1px">
+      <tr>
+        <th>Item/Desc.</th>
+        <th>Qty.</th>
+        <th>@</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Paperclips(box)</td>
+        <td>100</td>
+        <td>1.15</td>
+        <td>115.00</td>
+      </tr>
+      <tr>
+        <td>Paper(Case)</td>
+        <td>10</td>
+        <td>45.99</td>
+        <td>459.90</td>
+      </tr>
+      <tr>
+        <td>Wastepaper Baskets</td>
+        <td>2</td>
+        <td>17.99</td>
+        <td>35.98</td>
+      </tr>
+      <tr>
+        <th colspan="3">Subtotal</th>
+
+        <td>610.88</td>
+      </tr>
+      <tr>
+        <th colspan="2">Tax</th>
+
+        <td>7%</td>
+        <td>42.76</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+
+        <td>653.64</td>
+      </tr>
+    </table>
+  </body>
+</html>
