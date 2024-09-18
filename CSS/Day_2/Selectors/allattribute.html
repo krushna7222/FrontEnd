@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      
+      
+      img[alt] {
+        border-style: dotted;
+        border-color: black;
+        height: 250px;
+      }
+      img[alt="Temple"] {
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(247, 10, 10);
+        height: 200px;
+      }
+      img[alt~="old"] {
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgb(47, 255, 0);
+        border-radius: 50px;
+        height: 300px;
+      }
+      
+      hr {
+        padding: 20px;
+        border-color: rgb(0, 203, 71);
+      }
+      input[type^="p"]{
+        border-color: rgb(255, 0, 0);
+      }
+      input[type^="e"]{
+        border-color: rgb(17, 0, 255);
+      }
+      input[type$="t"]{
+        border-color: rgb(179, 255, 0);
+      }
+      input[type$="r"]{
+        border-color: rgb(17, 0, 255);
+      }
+      input[type*="ub"]{
+        border-color: rgb(17, 0, 255);
+        border-radius: 10px;
+        background-color: green;
+        color: rgb(210, 30, 60);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h2>Working with CSS Selectors</h2>
+    <h2>Atribute Selector</h2>
+    <img src="/Day_3/attribute selector/download.jpeg" alt="img" />
+    <hr />
+    <img src="/Day_3/attribute selector/download.jpeg" />
+    <hr />
+    <hr />
+    <img src="/Day_3/attribute selector/download.jpeg" alt="GOD" srcset="" />
+    <hr />
+    <img src="/Day_3/attribute selector/download.jpeg" alt="Temple" srcset="" />
+
+    <hr />
+    <hr />
+    <img
+      src="/Day_3/attribute selector/download.jpeg"
+      alt="This is the temple of god"
+      srcset=""
+    />
+    <hr />
+    <img
+      src="/Day_3/attribute selector/download.jpeg"
+      alt="This id old Temple"
+      srcset=""
+    />
+    <hr><hr>
+
+    <form>
+        
+          <h2>SignUp Form</h2>
+          <br /><br />
+          <label for="">Name :</label>
+          <input type="text" name="name" id="name" /><br /><br />
+  
+          <label for="mail">Email :</label>
+          <input type="email" name="mail" id="mail" /><br /><br />
+  
+          <label for="pass">Password :</label>
+          <input type="password" name="pass" id="pass" /><br /><br />
+  
+          <label for="phone">Phone No :</label>
+          <input type="number" name="phone" id="phone" /><br /><br />
+          
+          <input type="submit" value="Register">
+  
+
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute value Key Selector</title>
+    <!-- In this selector value of attribute is big then only one word in the value is searched -->
+    <style>
+      img[alt~="old"] {
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgb(47, 255, 0);
+        border-radius: 50px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="/Day_3/attribute selector/download.jpeg"
+      alt="This is the temple of god"
+      srcset=""
+    />
+    <hr />
+    <img
+      src="/Day_3/attribute selector/download.jpeg"
+      alt="This id old Temple"
+      srcset=""
+    />
+  </body>
+</html>

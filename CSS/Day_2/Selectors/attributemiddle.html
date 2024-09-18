@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Value Any letter selector</title>
+    <!-- In this type of attribute selector the value of attributes any letter is searched -->
+     <style>
+       input[type*="ub"]{
+        /* this ub is in  submit word in input type submit */
+        border-color: rgb(17, 0, 255);
+        border-radius: 10px;
+        background-color: green;
+        color: rgb(210, 30, 60);
+      }
+     </style>
+</head>
+<body>
+    
+    <form>
+        
+        <h2>SignUp Form</h2>
+        <br /><br />
+        <label for="">Name :</label>
+        <input type="text" name="name" id="name" /><br /><br />
+
+        <label for="mail">Email :</label>
+        <input type="email" name="mail" id="mail" /><br /><br />
+
+        <label for="pass">Password :</label>
+        <input type="password" name="pass" id="pass" /><br /><br />
+
+        <label for="phone">Phone No :</label>
+        <input type="number" name="phone" id="phone" /><br /><br />
+        
+        <input type="submit" value="Register">
+
+</body>
+</html>

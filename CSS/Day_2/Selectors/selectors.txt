@@ -1,0 +1,72 @@
+Types of CSS Selectors
+ 
+
+1.Universal Selector (*):
+
+i. Selects all elements on the page.
+
+ii. Example: * { margin: 0; padding: 0; }
+
+ 
+
+2.Type Selector (Element Selector):
+
+i. Targets all instances of a specific HTML tag.
+
+ii. Example: p { font-size: 16px; }
+
+ 
+
+3.Class Selector (.classname):
+
+i. Targets all elements with a specific class attribute.
+
+ii. Example: .button { background-color: blue; }
+
+ 
+
+4.ID Selector (#idname):
+
+i. Targets a single element with a specific ID attribute. IDs should be unique within a page.
+
+ii. Example: #header { text-align: center; }
+
+ 
+
+5.Attribute Selector ([attribute]):
+
+i. Selects elements based on a specific attribute or attribute value.
+
+ii. Example: [type="text"] { border: 1px solid #ccc; }
+
+ 
+
+6.Pseudo-classes (:pseudo-class):
+
+i. Targets elements based on their state or position.
+
+ii. Example: a:hover { color: red; }
+
+ 
+
+7.Pseudo-elements (::pseudo-element):
+
+i. Targets specific parts of an element.
+
+ii. Example: p::first-line { font-weight: bold; }
+
+ 
+
+8.Combinator Selectors:
+
+Used to select elements based on the relationship between them.
+
+i. Descendant Selector (space): div p (selects all <p> elements inside <div> elements)
+
+ii. Child Selector (>): div > p (selects all <p> elements that are direct children of <div> elements)
+
+iii.Adjacent Sibling Selector (+): h1 + p (selects the first <p> element immediately following an <h1> element)
+
+iv.General Sibling Selector (~): h1 ~ p (selects all <p> elements following an <h1> element)
+
+ 

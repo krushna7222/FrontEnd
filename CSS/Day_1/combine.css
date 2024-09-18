@@ -1,0 +1,18 @@
+.external {
+  color: crimson;
+  background-color: darkgray;
+  font-size: 26px;
+}
+p {
+  color: navy;
+  background-color: aquamarine;
+  border: 1px solid blueviolet;
+}
+h3 {
+  border: 2px solid green;
+  background: #10b565;
+  color: blueviolet;
+}
+body {
+  background-color: cornflowerblue;
+}
