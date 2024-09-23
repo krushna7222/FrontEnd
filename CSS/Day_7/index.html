@@ -1,0 +1,90 @@
+86% of storage used … If you run out, you can't create, edit, and upload files.
+Get 100 GB of storage for ₹130.00 ₹35.00/month for 2 months.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS PRO TIPS</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: lightgreen;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          background-color: lightcoral;
+        }
+      }
+
+      h1 {
+        transition: all 1s ease;
+      }
+
+      h1:hover {
+        font-size: 50px;
+      }
+
+      h1::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100px;
+        background-color: blue;
+      }
+
+      .section-container {
+        height: 400px;
+        width: auto;
+        margin-top: 100px;
+        border: 1px solid black;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      input {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        caret-color: red;
+      }
+
+      input:focus {
+        outline: 1px solid blue;
+      }
+
+      input::placeholder {
+        color: lightblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#Section1"> Section 1</a>
+        <a href="#Section2"> Section 2</a>
+        <a href="#Section3"> Section 3</a>
+      </nav>
+    </header>
+
+    <div id="Section1" class="section-container">
+      <h2>Section 1</h2>
+    </div>
+    <div id="Section2" class="section-container">
+      <h2>Section 2</h2>
+    </div>
+    <div id="Section3" class="container">
+      <h1>Hi, Welcome to Coding Wallah..!!</h1>
+
+      <input type="text" placeholder="enter your good name please..!!" />
+    </div>
+  </body>
+</html>
